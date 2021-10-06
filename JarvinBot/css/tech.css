@@ -1,0 +1,31 @@
+.chat_area{
+    position: fixed;
+    right: 16px;
+    bottom: 23px;
+    width: 930px;
+    height: 94vh;
+    background: #1b0c6e;
+}
+.chat_field{
+    position: fixed;
+    right: 16px;
+    bottom: 23px;
+    width: 674px;
+    height: 94vh;
+    background: #9c1358;
+    transition: all 0.3s ease-out;
+    transform: scaleY();
+}
+.chat_field.active{
+    transform: scaleY(1);
+}
+
+.hidden{
+    display: none !important;
+}
+
+.conv-form-wrapper textarea{
+    height: 30px;
+    overflow: hidden;
+    resize: none;
+}
